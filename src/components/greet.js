@@ -154,7 +154,7 @@ class AddMeetingForm extends Component{
                     <textarea type="text" placeholder="Enter the Description of meeting" style={style_textbox} value={this.state.Description} onChange={this.handleDes}></textarea>
                 </div>
                 <div>
-                    <Link to='/'><button style={style_button} type="button">Go back</button></Link>
+                    <Link to='/React_Meeting_Scheduler'><button style={style_button} type="button">Go back</button></Link>
                     <button type="submit" style={style_button} disabled={flag} title={button_title}>Schedule</button>
                     <button onClick={this.handle} style={style_button} type="button">Save</button>
                 </div>

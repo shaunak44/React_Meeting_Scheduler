@@ -10,7 +10,7 @@ class App extends Component {
   render(){
     return (
       <BrowserRouter>
-        <Route path="/" exact component={MeetingEle}/>
+        <Route path="/React_Meeting_Scheduler" exact component={MeetingEle}/>
         <Route path="/Greet" exact component={AddMeetingForm}/>
       </BrowserRouter>
   );
